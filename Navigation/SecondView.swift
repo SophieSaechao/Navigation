@@ -9,7 +9,12 @@ import SwiftUI
 
 struct SecondView: View {
     var body: some View {
-        Text("This is the second view!")
+        Text("About this site")
+            .font(.title)
+            .fontWeight(.bold)
+        Text("This site was made using Swift UI in Xcode. It is Sophie's KWK practice project.")
+            .font(.headline)
+            .fontWeight(.bold)
     }
 }
 

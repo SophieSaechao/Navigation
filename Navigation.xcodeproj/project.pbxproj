@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E51995C52E32A5AA0031FACB /* Third View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51995C42E32A5AA0031FACB /* Third View.swift */; };
+		E51995C92E32C6EA0031FACB /* Fourth View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51995C82E32C6EA0031FACB /* Fourth View.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E51995B42E329D8D0031FACB /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E51995C42E32A5AA0031FACB /* Third View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Third View.swift"; sourceTree = "<group>"; };
+		E51995C82E32C6EA0031FACB /* Fourth View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fourth View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		E51995AB2E329D8C0031FACB = {
 			isa = PBXGroup;
 			children = (
+				E51995C42E32A5AA0031FACB /* Third View.swift */,
+				E51995C82E32C6EA0031FACB /* Fourth View.swift */,
 				E51995B62E329D8D0031FACB /* Navigation */,
 				E51995B52E329D8D0031FACB /* Products */,
 			);
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E51995C92E32C6EA0031FACB /* Fourth View.swift in Sources */,
+				E51995C52E32A5AA0031FACB /* Third View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

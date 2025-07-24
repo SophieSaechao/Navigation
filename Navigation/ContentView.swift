@@ -11,20 +11,32 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Text("This is the root view 🌲")
+                Text("This is the homepage🌲")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
                 NavigationLink (destination: SecondView() ) {
-                    Text("Click me!")
+                    Text("About")
+                        .font(.title)
                 
                     
                 }
+                NavigationLink (destination: ThirdView() ) {
+                    Text("Contact")
+                        .font(.title)
+                
+                }
+                NavigationLink (destination: FourthView() ) {
+                    Text("Help")
+                        .font(.title)
+                
+                }
+                .navigationTitle("Home")
+                .navigationBarTitleDisplayMode(.inline)
+                .navigationBarHidden(true)
             }
-            
-        }
-        .navigationTitle("Home")
-        .navigationBarTitleDisplayMode(.inline)
-        .navigationBarHidden(true)
-     }
- }
+         }
+      }
+   }
 
 #Preview {
     ContentView()
